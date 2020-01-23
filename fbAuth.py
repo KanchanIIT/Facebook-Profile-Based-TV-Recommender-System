@@ -13,8 +13,8 @@ import webbrowser
 import facebook
 import sys
 
-APP_ID = '421195247922937'
-APP_SECRET = '2220745d1c7032be2385f5ca3500a49e'
+APP_ID = 'your api id'
+APP_SECRET = 'your api secret key'
 ENDPOINT = 'graph.facebook.com'
 REDIRECT_URI = 'http://127.0.0.1:8080/'
 ACCESS_TOKEN = None

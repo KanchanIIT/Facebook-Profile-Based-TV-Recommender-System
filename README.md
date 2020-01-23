@@ -1,5 +1,5 @@
 
--=- Overview -=-
+## Overview 
 
 This package contains a set of python scripts that allows you to scrape the Facebook 
 Graph API for interest data of your friends list.
@@ -26,4 +26,4 @@ facebook.py 	- The Python client library for the Facebook Platform.
 
 -=- Support -=-
 
-Email graham@screamingvelocity.com with questions, concerns, or suggested improvements.
+Email kanchan.besu@gmail.com with questions, concerns, or suggested improvements.

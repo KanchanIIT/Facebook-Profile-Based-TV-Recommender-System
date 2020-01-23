@@ -17,10 +17,12 @@ in a file named friendData.xml
 
 *collectData.py* 	- Main script that collects your Facebook data, outputting it to 
 		  stdout in XML form.   \
+		  \
 *fbAuth.py* 	- A script that enables you to authenticate (via OAuth) with the 
 		  Facebook platform.  It should automatically launch your default 
 		  web browser to a page where you can choose to allow the script 
 		  to access your Facebook data.  \
+		  \
 *facebook.py* 	- The Python client library for the Facebook Platform.
 
 

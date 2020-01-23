@@ -5,7 +5,7 @@ This package contains a set of python scripts that allows you to scrape the Face
 Graph API for interest data of your friends list.
 
 
--=- Usage -=-
+## Usage 
 
 All you should need to do is execute "python collectData.py".  It should automatically 
 prompt you to login to Facebook and allow the application access to your Facebook data, 
@@ -13,17 +13,17 @@ and upon successful authentication redirect you to a success page.  Results are 
 in a file named friendData.xml
 
 
--=- Files -=-
+## Files 
 
-collectData.py 	- Main script that collects your Facebook data, outputting it to 
+*collectData.py* 	- Main script that collects your Facebook data, outputting it to 
 		  stdout in XML form.
-fbAuth.py 	- A script that enables you to authenticate (via OAuth) with the 
+*fbAuth.py* 	- A script that enables you to authenticate (via OAuth) with the 
 		  Facebook platform.  It should automatically launch your default 
 		  web browser to a page where you can choose to allow the script 
 		  to access your Facebook data.
-facebook.py 	- The Python client library for the Facebook Platform.
+*facebook.py* 	- The Python client library for the Facebook Platform.
 
 
--=- Support -=-
+## Support 
 
 Email kanchan.besu@gmail.com with questions, concerns, or suggested improvements.

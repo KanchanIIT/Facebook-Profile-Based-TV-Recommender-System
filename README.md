@@ -32,9 +32,9 @@ in a file named friendData.xml
 *Clustering algorithm (K-Means)*  \  
 *Two Collaborative Filtering algorithms*  \
 *Content-Filtering approach*  \
-*Latent Semantic Analysis (LSA)* . \
-*Link Prediction*  \ 
-*Na¨ıve Bayes*  \
+*Latent Semantic Analysis (LSA)* 
+*Link Prediction*  
+*Na¨ıve Bayes*  
 
 ## Support 
 

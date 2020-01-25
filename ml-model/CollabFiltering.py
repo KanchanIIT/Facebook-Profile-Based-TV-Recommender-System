@@ -1,15 +1,3 @@
-"""
-An implementation of a Collaborative Filtering recommender system. This program
-takes two files as input: Facebook profile data in XML, and a list of stopwords.
-Both user-based as well as item-based methods are implemented.
-
-CS 229, Stanford University, Fall 2012
-Author: Samir Bajaj (http://www.samirbajaj.com)
-
-You are free to use all or any part of this code, as long as you acknowledge this
-contribution by including a reference in your work. This is a student research
-project, and no warrantees of any kind are implied.
-"""
 from __future__ import division
 import re
 import sys
@@ -126,7 +114,7 @@ def main(argv):
     if len(argv) > 1:
         print "Usage: Recommender.py <fbDataFile.xml>"
         sys.exit(0)
-    stopwords = set( open('/Users/samir_bajaj/stanford-ml/project/stop_words.txt', 'r').read().strip().split(',') )
+    stopwords = set( open('/Users/stop_words.txt', 'r').read().strip().split(',') )
     TV_SHOWS, LIKES = parse(argv[0], stopwords) #, False)    
     #
     total_precision = 0.0
